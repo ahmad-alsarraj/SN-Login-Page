@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-921302-appache-chart1": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Apache Chart 1",
+				"icon": "document outline",
+				"description": "Test chart from Apache Charts ",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_921302_appache_0"
+}

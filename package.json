@@ -1,0 +1,37 @@
+{
+	"name": "appache-chart1",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"appache-chart1"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "23.0.0",
+		"@servicenow/cli-component-archetype": "23.0.0",
+		"@servicenow/library-translate": "quebec",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-effect-http": "19.4.2",
+		"@servicenow/ui-renderer-snabbdom": "quebec",
+		"chart.js": "^4.3.0",
+		"echarts": "^5.4.2",
+		"react-dom": "^18.2.0",
+		"react-grid-layout": "^1.3.4",
+		"react-resizable": "^3.0.5",
+		"sortablejs": "^1.15.0"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "23.0.0",
+		"@servicenow/cli-component-archetype-dev": "23.0.0"
+	}
+}
