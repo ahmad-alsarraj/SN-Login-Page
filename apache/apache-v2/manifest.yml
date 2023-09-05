@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: apache-v2-hello-world
+      function: main
+      title: apache v2
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/65d72687-91e7-443f-819b-e862815e2d11
