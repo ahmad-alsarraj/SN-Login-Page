@@ -1,0 +1,70 @@
+@import '@servicenow/sass-kit/host';
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 800px;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .175rem .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+/* Primary Button Styles */
+.btn-primary {
+    // color: #fff;
+    // background-color: #007bff;
+    // border-color: #007bff;
+}
+
+/* Hover and Active States */
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn:active {
+    background-color: #005cbf;
+    border-color: #0056b3;
+}
+
+/* Select Styles */
+.form-select {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Focus Styles */
+.form-select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
