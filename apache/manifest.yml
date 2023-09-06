@@ -1,0 +1,6 @@
+modules:
+  function:
+    - key: my-function
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/b5c41326-4fa7-4ec2-9c47-042c0aa62ae0
